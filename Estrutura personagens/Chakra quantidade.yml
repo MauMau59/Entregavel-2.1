@@ -1,0 +1,15 @@
+info:
+  name: Chakra quantidade
+  type: http
+  seq: 6
+
+http:
+  method: GET
+  url: http://localhost:8080/chakra-stats
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
