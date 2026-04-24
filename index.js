@@ -222,6 +222,7 @@ app.get('/', (req, res) => res.send('API Naruto funcionando'));
 
 app.get('/nomes', (req, res) => res.json(nomes));
 
+
 app.get('/menores-da-folha', (req, res) => res.json(menoresDaFolha));
 
 app.get('/kekkei-genkai', (req, res) => res.json({ quantidade: personagensNaruto.reduce((total, p) => total + (p.possuiKekkeiGenkai ? 1 : 0), 0) }));
